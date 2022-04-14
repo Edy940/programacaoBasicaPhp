@@ -12,11 +12,11 @@
 
   echo "<h2>Estrutura de repetição <i>while</i></h2>";
 
-  $contador = 3;
+  $contador = 0;
 
-  while ($contador >= 0) {
+  while ($contador >= 10) {
     echo "<p>Valor da variável de controle [contador] = $contador</p>";
-    $contador--;
+    $contador+=2;
   }
 
   ?>
